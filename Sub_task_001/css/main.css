@@ -6,6 +6,7 @@ body{
 }
 .main_btns
 {
+    margin-top: 20px;
     width: 100%;
     text-align: right;
 
@@ -13,27 +14,37 @@ body{
 .main_btns .btn{
   display: inline-block;
   margin-right:20px;
-  padding:5px;
+  padding:5px 10px 5px 10px;
   background-color: white;
   border: 1px solid white;
   border-top:0px;
-  border-bottom-left-radius: 3px;
-  border-bottom-right-radius: 3px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
 }
 .btn:nth-last-child(1){
-  margin-right: 360px;
+  margin-right: 400px;
 }
 
 .form
 {
   background-color: white;
   width: 600px;
-  margin:20px auto;
+  margin:0px auto;
   margin-bottom: 0px;
   height: 100%;
   padding: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
-.form input
+.form .personal_info,.form .book_info
+{
+  height: 50%;
+  padding:10px;
+  border: 0px solid grey;
+  border-radius: 10px;
+  box-shadow: -3px +3px 10px grey;
+}
+.book_info input,.personal_info input
 {
   padding:10px;
   margin-top:20px;
@@ -43,11 +54,6 @@ body{
 
 
 .personal_info{
-  height: 50%;
-  padding:10px;
-  border: 0px solid grey;
-  border-radius: 10px;
-  box-shadow: -3px +3px 10px grey;
   display: inline-block;
 }
   .personal_info input{
@@ -55,11 +61,6 @@ body{
   }
 
 .book_info{
-  height: 50%;
-  padding:10px;
-  border: 0px solid grey;
-  border-radius: 10px;
-  box-shadow: -3px +3px 10px grey;
   display: inline-block;
   float:right;
 }
@@ -67,8 +68,15 @@ body{
     display: block;
   }
 
-.submit{
-  display: block;
-  width: 100%;
-  height: 20px;
+.submit
+{
+  margin-top: 20px;
+  text-align: center;
+}
+.submit input{
+  padding:5px 20px 5px 20px;
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid grey;
+
 }
