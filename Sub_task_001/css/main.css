@@ -1,13 +1,37 @@
-.container
-{
+body{
   background-color: blue;
-  height: 100%;
-  width: 100%;
+
+}
+.main_btns
+{
+    display: block;
+    width: 100%;
+    text-align: right;
 }
 
 .form
 {
   background-color: white;
-  margin:20% auto;
-  width: 500px;
+  margin:10% auto;
+  width: 85%;
+  padding: 20px;
+}
+.form input
+{
+  
+}
+
+.personal_info{
+  display: inline-block;
+}
+.personal_info input{
+  display: block;
+}
+
+.book_info{
+  display: inline-block;
+  float:right;
+}
+.book_info input{
+  display: block;
 }
