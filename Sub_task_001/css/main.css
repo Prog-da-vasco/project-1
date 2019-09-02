@@ -6,19 +6,29 @@ body{
 }
 .main_btns
 {
-    display: block;
     width: 100%;
     text-align: right;
 
 }
-.main_btns button{
-  margin-right: 20px;
+.main_btns .btn{
+  display: inline-block;
+  margin-right:20px;
+  padding:5px;
+  background-color: white;
+  border: 1px solid white;
+  border-top:0px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
 }
+.btn:nth-last-child(1){
+  margin-right: 360px;
+}
+
 .form
 {
   background-color: white;
   width: 600px;
-  margin:100px auto;
+  margin:20px auto;
   margin-bottom: 0px;
   height: 100%;
   padding: 20px;
@@ -30,18 +40,25 @@ body{
   border-radius: 3px;
   border:1px solid grey;
 }
+.form div{
+  height: 50%;
+  padding:10px;
+  border: 0px solid grey;
+  border-radius: 10px;
+  box-shadow: -3px +3px 10px grey;
+}
 
 .personal_info{
   display: inline-block;
 }
-.personal_info input{
-  display: block;
-}
+  .personal_info input{
+    display: block;
+  }
 
 .book_info{
   display: inline-block;
   float:right;
 }
-.book_info input{
-  display: block;
-}
+  .book_info input{
+    display: block;
+  }
