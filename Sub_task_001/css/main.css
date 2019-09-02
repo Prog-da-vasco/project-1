@@ -1,5 +1,7 @@
 body{
   background-color: blue;
+  margin: 0px;
+  padding: 0px;
 
 }
 .main_btns
@@ -7,18 +9,23 @@ body{
     display: block;
     width: 100%;
     text-align: right;
-}
 
+}
+.main_btns button{
+  margin-right: 20px;
+}
 .form
 {
   background-color: white;
-  margin:10% auto;
-  width: 85%;
+  width: 600px;
+  margin:100px auto;
+  margin-bottom: 0px;
+  height: 100%;
   padding: 20px;
 }
 .form input
 {
-  
+  padding:10px
 }
 
 .personal_info{
