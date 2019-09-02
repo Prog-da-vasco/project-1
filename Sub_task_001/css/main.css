@@ -20,9 +20,17 @@ body{
   border-top:0px;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
+  transition-duration: 0.2s;
 }
 .btn:nth-last-child(1){
   margin-right: 400px;
+}
+.main_btns .btn a{
+  text-decoration: none;
+  color:black;
+}
+.main_btns .btn:hover{
+  padding-bottom: 10px;
 }
 
 .form
@@ -39,7 +47,7 @@ body{
 .form .personal_info,.form .book_info
 {
   height: 50%;
-  padding:10px;
+  padding:20px;
   border: 0px solid grey;
   border-radius: 10px;
   box-shadow: -3px +3px 10px grey;
@@ -47,7 +55,6 @@ body{
 .book_info input,.personal_info input
 {
   padding:10px;
-  margin-top:20px;
   border-radius: 3px;
   border:1px solid grey;
 }
@@ -57,6 +64,7 @@ body{
   display: inline-block;
 }
   .personal_info input{
+    margin-top:50px;
     display: block;
   }
 
@@ -65,6 +73,7 @@ body{
   float:right;
 }
   .book_info input{
+      margin-top:30px;
     display: block;
   }
 
@@ -74,9 +83,9 @@ body{
   text-align: center;
 }
 .submit input{
-  padding:5px 20px 5px 20px;
-  border-radius: 10px;
-  background-color: white;
+  padding:10px 20px 10px 20px;
+
+  background-color: blue;
   border: 1px solid grey;
 
 }
