@@ -40,15 +40,14 @@ body{
   border-radius: 3px;
   border:1px solid grey;
 }
-.form div{
+
+
+.personal_info{
   height: 50%;
   padding:10px;
   border: 0px solid grey;
   border-radius: 10px;
   box-shadow: -3px +3px 10px grey;
-}
-
-.personal_info{
   display: inline-block;
 }
   .personal_info input{
@@ -56,9 +55,20 @@ body{
   }
 
 .book_info{
+  height: 50%;
+  padding:10px;
+  border: 0px solid grey;
+  border-radius: 10px;
+  box-shadow: -3px +3px 10px grey;
   display: inline-block;
   float:right;
 }
   .book_info input{
     display: block;
   }
+
+.submit{
+  display: block;
+  width: 100%;
+  height: 20px;
+}
