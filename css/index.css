@@ -1,0 +1,166 @@
+body{
+  background-color:blue;
+  margin: 0px;
+  padding: 0px;
+
+}
+.main_btns
+{
+    margin-top: 20px;
+    width: 100%;
+    text-align: right;
+
+}
+.main_btns .btn{
+  display: inline-block;
+  margin-right:20px;
+  padding:5px 20px 5px 20px;
+  border: 2px solid white;
+  background-color:white;
+  margin-bottom:40px;
+  border-radius: 3px;
+  border-radius: 3px;
+  transition-duration: 0.2s;
+  font-size:20px;
+}
+.btn:nth-last-child(1){
+  margin-right: 85px;
+}
+.main_btns .btn a{
+  text-decoration: none;
+  color:black;
+}
+.main_btns .btn:hover{
+  background-color:blue;
+  color:white;
+}
+
+.form
+{
+  background-color:white;
+  width: 90%;
+  margin:0px auto;
+  margin-bottom: 0px;
+  height: 70vh;
+  padding: 20px;
+}
+.form .personal_info,.form .book_info
+{
+  height:400px;
+  width:500px;
+  padding:20px;
+  border: 0px solid grey;
+  border-radius: 10px;
+  box-shadow: -3px +3px 10px grey;
+  background-color:white;
+}
+.book_info input,.personal_info input
+{
+  padding:10px;
+  border-radius: 3px;
+  border:1px solid grey;
+}
+
+
+.personal_info{
+  display: inline-block;
+  margin-left:0px;;
+}
+  .personal_info input{
+    margin-top:10px;
+    display: block;
+  }
+
+.book_info{
+  display: inline-block;
+  float:right;
+  margin-right:50px;
+}
+  .book_info input{
+    margin-top:10px;
+    display: block;
+  }
+.submit{
+	display:block;
+	float:right;
+	
+}
+
+.submit input{
+	background-color:blue;
+	padding:10px;
+	font-size:15px;
+	color:white;
+	border-radius:3px;
+
+}
+
+.book_info select{
+	padding:10px;
+	display:block;
+	margin-top:10px;
+}
+
+textarea{
+	margin-top:10px;
+}
+
+.logo{
+	margin-left:48px;
+	margin-top:10px;
+}
+.logo p{
+	float:left;
+	size:20px;
+	margin-top:20px;
+
+	
+}
+
+.logo p:nth-child(1){
+	font-family:cursive;
+	font-size:40px;
+	color:white;
+	
+}
+.logo p:nth-child(2){
+	font-family:arial;
+	font-size:25px;
+	color:white;
+	
+}
+.logo p:nth-child(3){
+	font-family:tahoma;
+	font-size:20px;
+	color:yellow;
+	
+}
+
+.declaration{
+	margin-top:10px;
+	margin-left:25px;
+}
+
+
+ ul{
+	list-style-type:none;
+	position:absolute;
+	top:90%;
+	left:35%;
+}
+
+ul li{
+	display:inline-block;
+	background-color:white;
+	border-radius:3px;
+	padding:10px;
+	font-size:20px;
+	margin-right:25px;
+}
+
+ul li:nth-child(1){
+	color:blue;
+	font-weight:bold;
+}
+
+
